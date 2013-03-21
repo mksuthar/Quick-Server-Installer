@@ -26,9 +26,9 @@ echo "GETTING RUBY"
 echo "====================================="
 
 
-sudo wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
-sudo tar -xvzf ruby-1.9.3-p194.tar.gz
-sudo cd ruby-1.9.3-p194/
+sudo wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
+sudo tar -xvzf ruby-1.9.3-p392.tar.gz
+sudo cd ruby-1.9.3-p392/
 ./configure
 
 echo "====================================="
@@ -39,6 +39,7 @@ sudo make
 sudo make install
 echo "gem: --no-ri --no-rdoc" >> ~/.gemrc
 sudo gem install bundler
+sudo gem install rails
 
 echo "====================================="
 echo "INSTALLING PASSENGER AND NGINX"
