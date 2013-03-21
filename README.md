@@ -5,9 +5,9 @@ Ruby-Nginx-MySql-Passenger Installer
 
 How Do I run it ?
 =====================
-sudo apt-get install -y git
-git clone https://github.com/mksuthar/Quick-Server-Installer.git
-bash ./Quick-Server-Installer/installme.sh
+1. sudo apt-get install -y git
+2. git clone https://github.com/mksuthar/Quick-Server-Installer.git
+3. bash ./Quick-Server-Installer/installme.sh
 
 
 What does it Install
