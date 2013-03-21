@@ -24,13 +24,14 @@ How to start Nginx Server
 =========================
 Use follwing commands : 
 
-/etc/init.d/nginx start
-/etc/init.d/nginx stop
-/etc/init.d/nginx reload
-/etc/init.d/nginx restart
+1. /etc/init.d/nginx start
+2. /etc/init.d/nginx stop
+3. /etc/init.d/nginx reload
+4. /etc/init.d/nginx restart
 
 Special Thanks
 ==================
 Linode Documentations
+
 Digital Ocean Documentations
 
